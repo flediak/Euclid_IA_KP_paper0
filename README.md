@@ -1,1 +1,3 @@
-# Plotting scripts for Euclid Key Project paper 0 on Intrinsic Alignment implementation in the Flagship 2 simulation
+# Plots for Euclid KP paper 0 on IA implementation FS2
+- notebooks can be cun on google colab by
+- data is downloaded in the notebooks
