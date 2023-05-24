@@ -31,14 +31,14 @@
 
 # correlation measurements
 ## name convention
-- folders: D-[density sample]_S-[shape sample]/run[runID]
-- files: [correlation typ]_r[runID]_p[jobID]
-- example: D-lowz_S-lowz.l4/run0/wgp_r0_p0.csv
-
--> sampling points in cost files can be linked to files with correlation measurements via runID and jobID
+- folders: ```D-[density sample]_S-[shape sample]/run[runID]```
+- files for random realizations: ```[correlation typ]_r[runID]_p[jobID]_rep[1-3].csv```
+- files for average over random realizations: ```[correlation typ]_r[runID]_p[jobID].csv```
+- example: ```D-lowz_S-lowz.l4/run0/wgp_r0_p0_rep1.csv```
+- ***sampling points in cost files can be linked to files with correlation measurements via runID and jobID***
 
 ## columns
 
-### wgg and wg+
+### wgp
 
 ### eta
